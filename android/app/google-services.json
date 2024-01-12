@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "798893382966",
+    "project_id": "my-bmi-calculator-ggez",
+    "storage_bucket": "my-bmi-calculator-ggez.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798893382966:android:d1ef17877898a903852797",
+        "android_client_info": {
+          "package_name": "com.example.bmi_calculator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCoMZYNcO_Fm06yW7y_C6gdPkT7LzAaEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
