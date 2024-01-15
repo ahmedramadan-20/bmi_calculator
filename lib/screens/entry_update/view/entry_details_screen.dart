@@ -63,7 +63,7 @@ class EntryDetailsPage extends StatelessWidget {
                       age: int.parse(cubit.ageController.text),
                       bmi: entry.bmi,
                       timestamp: entry.timestamp,
-                      bmiCategory: cubit.newBmiCategory!,
+                      bmiCategory: cubit.newBmiCategory?? entry.bmiCategory,
                     );
                     cubit.updateBmiInFirebase(updatedEntry);
                     // Trigger UI rebuild
